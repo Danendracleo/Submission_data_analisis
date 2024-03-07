@@ -1,4 +1,4 @@
-# Dicoding Collection Dashboard ✨
+# Dicoding Collection Dashboard 
 
 ## Setup environment
 ```
