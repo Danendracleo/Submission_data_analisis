@@ -114,7 +114,7 @@ if option == "Rata rata per tahun tingkat polusi kota Guanyuan selama 5 tahun (2
 
 
 else:
-  st.subheader("Trend Perubahan Suhu dan Tekanan Udara di Aotizhongxin")
+  st.subheader("Trend Perubahan Suhu dan Tekanan Udara di Guanyuan")
   mean_air_over_5_years = data_df.groupby('year').agg({
       'TEMP': 'mean',
       'PRES': 'mean'}).reset_index()
